@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jingli.inter.mapper.ChargingOrderMapper">
+    <resultMap type="com.jingli.inter.entity.ChargingOrder" id="ChargingOrderMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="weixinOpenid" column="weixin_openid" jdbcType="VARCHAR"/>
+        <result property="orderstate" column="orderstate" jdbcType="VARCHAR"/>
+        <result property="parkid" column="parkid" jdbcType="VARCHAR"/>
+        <result property="parklockid" column="parklockid" jdbcType="VARCHAR"/>
+        <result property="starttime" column="starttime" jdbcType="VARCHAR"/>
+        <result property="endtime" column="endtime" jdbcType="VARCHAR"/>
+        <result property="ordernumber" column="ordernumber" jdbcType="VARCHAR"/>
+        <result property="chargeStatus" column="charge_status" jdbcType="VARCHAR"/>
+        <result property="isFee" column="is_fee" jdbcType="VARCHAR"/>
+        <result property="consumePower" column="consume_power" jdbcType="DOUBLE"/>
+        <result property="chargingCurrent" column="charging_current" jdbcType="VARCHAR"/>
+        <result property="chargingCdgl" column="charging_cdgl" jdbcType="VARCHAR"/>
+        <result property="customPriceId" column="custom_price_id" jdbcType="VARCHAR"/>
+        <result property="hour" column="hour" jdbcType="VARCHAR"/>
+        <result property="price" column="price" jdbcType="VARCHAR"/>
+        <result property="mobile" column="mobile" jdbcType="VARCHAR"/>
+        <result property="createtime" column="createtime" jdbcType="DATE"/>
+        <result property="code" column="code" jdbcType="VARCHAR"/>
+        <result property="cardNo" column="card_no" jdbcType="VARCHAR"/>
+        <result property="ordergold" column="ordergold" jdbcType="VARCHAR"/>
+        <result property="orderType" column="order_type" jdbcType="VARCHAR"/>
+        <result property="outTradeNo" column="out_trade_no" jdbcType="VARCHAR"/>
+        <result property="realHour" column="real_hour" jdbcType="VARCHAR"/>
+        <result property="realEndTime" column="real_end_time" jdbcType="DATE"/>
+        <result property="refundAmount" column="refund_amount" jdbcType="DOUBLE"/>
+        <result property="deviceType" column="device_type" jdbcType="INTEGER"/>
+        <result property="chargeFee" column="charge_fee" jdbcType="DECIMAL"/>
+        <result property="serviceFee" column="service_fee" jdbcType="DECIMAL"/>
+        <result property="payTime" column="pay_time" jdbcType="DATE"/>
+        <result property="orderSource" column="order_source" jdbcType="INTEGER"/>
+    </resultMap>
+
+
+
+    <!--新增数据-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into c_charging_order(id, weixin_openid, orderstate, parkid, parklockid, starttime, endtime, ordernumber,
+                                     charge_status, is_fee, consume_power, charging_current, charging_cdgl,
+                                     custom_price_id, hour, price, mobile, createtime, code, card_no, ordergold,
+                                     order_type, out_trade_no, real_hour, real_end_time, refund_amount, device_type,
+                                     charge_fee, service_fee, pay_time, order_source)
+        values (#{id}, #{weixinOpenid}, #{orderstate}, #{parkid}, #{parklockid}, #{starttime}, #{endtime},
+                #{ordernumber}, #{chargeStatus}, #{isFee}, #{consumePower}, #{chargingCurrent}, #{chargingCdgl},
+                #{customPriceId}, #{hour}, #{price}, #{mobile}, #{createtime}, #{code}, #{cardNo}, #{ordergold},
+                #{orderType}, #{outTradeNo}, #{realHour}, #{realEndTime}, #{refundAmount}, #{deviceType}, #{chargeFee},
+                #{serviceFee}, #{payTime}, #{orderSource})
+    </insert>
+
+
+
+</mapper>

@@ -13,7 +13,7 @@
     <a href="http://wenhui.nxptdn.com">
         <img src="https://img.shields.io/badge/Edition-5.2-blue.svg" />
     </a>
-     <a href="https://gitee.com/chouleng/cdzkjjh/repository/archive/master.zip">
+     <a href="https://gitee.com/chouleng/lengzicharge-cloud/repository/archive/master.zip">
         <img src="https://img.shields.io/badge/Download-240m-red.svg" />
     </a>
 </div>
@@ -27,11 +27,11 @@
 [二轮在线体验](http://charge.nxptdn.com/) |
 [帮助文档](http://wenhui.nxptdn.com/page/link) |
 
-[comment]: <> ([宽屏预览]&#40;https://gitee.com/chouleng/cdzkjjh/blob/master/README.md&#41;)
+[comment]: <> ([宽屏预览]&#40;https://gitee.com/chouleng/lengzicharge-cloud/blob/master/README.md&#41;)
 
 </div>
 <div align="center" >
-<a href="https://gitee.com/chouleng/cdzkjjh/blob/master/README.md">宽屏预览</a>
+<a href="https://gitee.com/chouleng/lengzicharge-cloud/blob/master/README.md">宽屏预览</a>
 </div>
 
 
@@ -67,7 +67,7 @@ v5.1.0 更新说明【更新时间2023年07月10日】
 
 欢迎大家来体验、来提建议，来一起让充电桩开源物联网系统更强大，让更多开发者受益！虽然是开源，但我们该有的功能全都有！
 
-充电桩开源物联网系统Java版：https://gitee.com/chouleng/cdzkjjh   
+充电桩开源物联网系统Java版：https://gitee.com/chouleng/lengzicharge-cloud   
 
 
 
@@ -176,9 +176,9 @@ Redis
 #### 感谢大神们提交代码（排名不分先后）
 文哥、小兵、亮亮、喜峰、周强、单单
 
-欢迎<a href="https://gitee.com/chouleng/cdzkjjh/issues" target="_blank">反馈问题</a>
+欢迎<a href="https://gitee.com/chouleng/lengzicharge-cloud/issues" target="_blank">反馈问题</a>
 
-欢迎<a href="https://gitee.com/chouleng/cdzkjjh/issues" target="_blank">提交代码</a>
+欢迎<a href="https://gitee.com/chouleng/lengzicharge-cloud/issues" target="_blank">提交代码</a>
 
 ---
 ###  📸 特别鸣谢
@@ -220,5 +220,5 @@ All rights reserved。
 
 ---
 
-[返回顶部 :fa-arrow-circle-up: ](https://gitee.com/chouleng/cdzkjjh)
+[返回顶部 :fa-arrow-circle-up: ](https://gitee.com/chouleng/lengzicharge-cloud)
 

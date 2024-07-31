@@ -14,6 +14,7 @@
         <module>jingli-job</module>
         <module>jingli-file</module>
         <module>jingli-admin</module>
+        <module>jingli-inter</module>
     </modules>
 
     <artifactId>jingli-modules</artifactId>

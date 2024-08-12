@@ -6,7 +6,7 @@
 
 
 
-
+[🔥 Github的代码优先于Gitee   https://github.com/roinli/huige-ChargeOS-cloud](https://github.com/roinli/huige-ChargeOS-cloud)
 
 
 当前版本：V2.5.2
